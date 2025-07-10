@@ -1,5 +1,5 @@
-# Braintre-Mobile-Scanner
-Braintree Mobile Scanner App
+# Scanning for BC
+
 
 ## 1 Introduction
 
