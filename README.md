@@ -7,6 +7,9 @@ This application is a warehouse management and scanning solution built for Micro
 
 No additional software required, except the Microsoft Business Central app from your mobile app store.
 
+> Assumption is that you are using a handheld scanner running Android.
+> There are third-party applications available that will allow you to use the device's camera to capture and read barcodes.
+
 We have implemented scanning in the following areas to improve productivity and reduce the amount of manual data entry.
 - Warehouse Receipts
 - Warehouse Shipments
