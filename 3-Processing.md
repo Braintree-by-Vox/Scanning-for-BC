@@ -17,3 +17,6 @@
 | | After capturing the tracking no. it will prompt the user for a Qty. to Handle. The default value will be the Outstanding Quantity. | ![alt text](./img/image-16.png) | 
 | **Physical Inventory Recordings** | On Physical Inventory Recordings, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed. | ![alt text](./img/image-17.png) | 
 | | After capturing the tracking no. it will prompt the user for a Qty. to Handle. The default value will be the Outstanding Quantity.<br>For non-tracked items, Set Qty. function can be used. | ![alt text](./img/image-18.png) |
+---
+
+[**⬆️ Back to Top**](#page-1) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Braintree-theme)
