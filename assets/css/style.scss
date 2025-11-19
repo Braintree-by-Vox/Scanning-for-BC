@@ -9,6 +9,8 @@
 
 // Custom header height overrides
 .page-header {
+  position: sticky;
+  top: 0;
   max-height: 200px;      // Maximum header height
   overflow: hidden;       // Hide content that exceeds max-height
     
@@ -249,6 +251,22 @@ body {
         color: $braintree-font;
         font-weight: bold;
       }
+    }
+  }
+  
+  // Blockquote styling
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: $blockquote-text-color;
+    border-left: 0.3rem solid $border-color;
+    
+    > :first-child {
+      margin-top: 0;
+    }
+    
+    > :last-child {
+      margin-bottom: 0;
     }
   }
 }
