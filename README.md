@@ -1,4 +1,4 @@
-# Inventory Scanning for BC
+# Inventory Scanning for Microsoft Dynamics 365 Business Central
 This application is a warehouse management and scanning solution built for Microsoft Dynamics 365 Business Central. It provides enhanced functionality for managing inventory and item tracking within a warehouse environment on a handheld device.
 
 No additional software required, except the Microsoft Business Central app from your mobile app store.

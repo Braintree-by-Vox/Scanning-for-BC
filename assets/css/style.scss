@@ -97,7 +97,7 @@ body {
     border-right: 1px solid $braintree-border;
     padding: 1.5rem;
     position: sticky;
-    top: 2rem;
+    top: 200px;
     min-height: 800px;
     
     @media screen and (max-width: 64em) {
@@ -163,7 +163,7 @@ body {
     border-radius: 6px;
     padding: 1.5rem;
     position: sticky;
-    top: 2rem;
+    top: 200px;
     
     @media screen and (max-width: 64em) {
       position: static;
