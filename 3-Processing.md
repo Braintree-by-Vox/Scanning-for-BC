@@ -3,28 +3,28 @@
 **Warehouse Receipts:** 
 On a Warehouse Receipt, the user must select the line to process and click the lines section menu 
 
-    ![alt text](./img/image-3.png)
+   ![alt text](./img/image-3.png)
 
 - Click the Mobile Item Scanning action
   - 1️⃣ The Scan Area contains information about the item being scanned, such as the Item No., Description, quantity scanned and the remaining quantity to scan. The page should be ready for scanning.
   - 2️⃣ List of captured tracking entries.  
 
-        ![alt text](./img/image-4.png) 
+    ![alt text](./img/image-4.png) 
 
-- _Scan a tracking no_. (can use manual input too)
+- Scan a tracking no. (can use manual input too)
   >For Lot Nos., the system will prompt user for a quantity. 
   >For Serial Nos., the system will assume quantity = 1, and thus not prompt user for input.
   - 1️⃣	Enter a quantity.
   - 2️⃣	Click Check button to save changes and create the tracking entry or Cancel button to discard the changes.
 
-        ![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
+    ![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
 
 - If accepted, the following is updated:<br>
   - 1️⃣	Quantity to handle<br>
   - 2️⃣	Tracking List.
 - The user can click on an entry in the tracking list and delete an entry if required. 
 
-        ![alt text](./img/image-7.png) 
+    ![alt text](./img/image-7.png) 
 
 **Warehouse Shipments:** 
 On a Warehouse Shipment, click the lines section menu  
@@ -41,29 +41,36 @@ On a Warehouse Shipment, click the lines section menu
 
 **Warehouse Picks:** On warehouse picks, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed. It currently caters for the source documents Sales Order and Transfer Order. When a tracking no. is captured, the system will check the bin contents and assign the available quantity to pick. If there isn’t enough to cover the outstanding quantity, the split function should be used to scan a tracking no. from another bin. 
 
-    ![alt text](./img/image-11.png)
+        ![alt text](./img/image-11.png)
 
 - _Split function:_ If available, user can click the split button. This will prompt the user to enter a value for the Qty. to Handle field. Accepting the changes sets the Quantity on the current line to the same as the Qty. to Handle and creates a new line for the difference between the original Quantity and the new Quantity.
 - _Set Qty. function:_ If available, allows the user to capture a new value for the Qty. to Handle field. 
 
- ![alt text](./img/image-12.png) 
+        ![alt text](./img/image-12.png) 
 
-**Warehouse Put-Aways:** On Warehouse Put-Aways, the only field that can be modified is the Bin Code.<br>Currently caters for source documents Purchase Order and Transfer Order  ![alt text](./img/image-13.png) 
+**Warehouse Put-Aways:** On Warehouse Put-Aways, the only field that can be modified is the Bin Code.<br>Currently caters for source documents Purchase Order and Transfer Order  
+        
+        ![alt text](./img/image-13.png) 
 
-**Inventory Picks:** Inventory Picks function the same as Warehouse Picks  ![alt text](./img/image-14.png) 
+**Inventory Picks:** Inventory Picks function the same as Warehouse Picks  
 
-**Inventory Put-Aways**  Inventory Put-Aways function more-or-less the same as Warehouse Put-Aways, with the exception that it is possible to capture tracking information in addition to the bin code.  ![alt text](./img/image-15.png) 
+        ![alt text](./img/image-14.png) 
+
+**Inventory Put-Aways:**  Inventory Put-Aways function more-or-less the same as Warehouse Put-Aways, with the exception that it is possible to capture tracking information in addition to the bin code.  
+
+        ![alt text](./img/image-15.png) 
 
 After capturing the tracking no. it will prompt the user for a Qty. to Handle. The default value will be the Outstanding Quantity.
- ![alt text](./img/image-16.png) 
+ 
+        ![alt text](./img/image-16.png) 
 
 **Physical Inventory Recordings:** On Physical Inventory Recordings, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed.  
 
-![alt text](./img/image-17.png) 
+        ![alt text](./img/image-17.png) 
 
 After capturing the tracking no. it will prompt the user for a Qty. to Handle. The default value will be the Outstanding Quantity.<br>For non-tracked items, Set Qty. function can be used. 
 
- ![alt text](./img/image-18.png) 
+         ![alt text](./img/image-18.png) 
 ---
 
 [**⬆️ Back to Top**](#processing) &nbsp;&nbsp;&nbsp;&nbsp; [**🏠 Home**](/Scanning-for-BC)
