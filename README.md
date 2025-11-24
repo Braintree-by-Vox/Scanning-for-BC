@@ -23,9 +23,3 @@ We have implemented scanning in the following areas to improve productivity and 
 ## [2 Setups](2-Setup)
 
 ## [3 Processing](3-Processing)
-
-## Troubleshooting
-If you encounter any issues or errors while using the Scanning for BC extension please contact Braintree support. Prrovide 
-* error messages
-* steps leading to the problem for efficient troubleshooting
-* screen shots
