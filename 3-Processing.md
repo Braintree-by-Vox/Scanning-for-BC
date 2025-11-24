@@ -1,28 +1,32 @@
 # Processing
 
 **Warehouse Receipts:** 
-On a Warehouse Receipt, the user must select the line to process and click the lines section menu 
+- On a Warehouse Receipt, the user must select the line to process and click the lines section menu 
 
- ![alt text](./img/image-3.png)
+    ![alt text](./img/image-3.png)
 
-Click the Mobile Item Scanning action<br>1.	The Scan Area contains information about the item being scanned, like the Item No. and Description, the quantity scanned and the remaining quantity to scan. Page should be ready for scanning.<br>2.	List of captured tracking entries.  
+- Click the Mobile Item Scanning action
+  - 1️⃣ The Scan Area contains information about the item being scanned, such as the Item No., Description, quantity scanned and the remaining quantity to scan. The page should be ready for scanning.
+  - 2️⃣ List of captured tracking entries.  
 
-![alt text](./img/image-4.png) 
+    ![alt text](./img/image-4.png) 
 
-Scan a tracking no. (can use manual input too)<br><br>For Lot Nos., the system will prompt user for quantity. <br><br>For Serial Nos., the system will assume quantity = 1, and thus not prompt user for input.<br><br>1.	Enter a quantity.<br>2.	Click Check button to save changes and create the tracking entry or Cancel button to discard the changes.
+- Scan a tracking no. (can use manual input too)<br>. For Lot Nos., the system will prompt user for a quantity. <br>For Serial Nos., the system will assume quantity = 1, and thus not prompt user for input.
+  - 1️⃣	Enter a quantity.
+  - 2️⃣	Click Check button to save changes and create the tracking entry or Cancel button to discard the changes.
 
-![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
+    ![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
 
-If accepted, the following is updated:<br>
-1.	Quantity to handle<br>
-2.	Tracking List.<br><br>User can click on an entry in the tracking list and delete an entry if required. 
+- If accepted, the following is updated:<br>
+  - 1️⃣	Quantity to handle<br>
+  - 2️⃣	Tracking List.<br><br>User can click on an entry in the tracking list and delete an entry if required. 
 
 ![alt text](./img/image-7.png) 
 
 **Warehouse Shipments:** 
 On a Warehouse Shipment, click the lines section menu  
 
-![alt text](./img/image-8.png)|
+![alt text](./img/image-8.png)
 
 If the location requires Picks, the button will not be displayed. This is because tracking is done from the Pick and item tracking cannot be assigned from the warehouse shipment when picks are required.  
 ![alt text](./img/image-9.png) 
@@ -31,7 +35,7 @@ If the location does not require Pick, the button will be displayed<br><br>Scann
 
 ![alt text](./img/image-10.png) 
 
-**Warehouse Picks**: On warehouse picks, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed.<br><br><br>Currently caters for source documents Sales Order and Transfer Order.<br><br>When a tracking no. is captured, the system will check the bin contents and assign the available quantity to pick.<br><br>If there isn’t enough to cover the outstanding quantity, the split function should be used to scan a tracking no. from another bin. 
+**Warehouse Picks**: On warehouse picks, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed.<br>Currently caters for source documents Sales Order and Transfer Order.<br>When a tracking no. is captured, the system will check the bin contents and assign the available quantity to pick.<br>If there isn’t enough to cover the outstanding quantity, the split function should be used to scan a tracking no. from another bin. 
 
 ![alt text](./img/image-11.png)
 
