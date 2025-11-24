@@ -1,7 +1,7 @@
 # Processing
 
 **Warehouse Receipts:** 
-- On a Warehouse Receipt, the user must select the line to process and click the lines section menu 
+On a Warehouse Receipt, the user must select the line to process and click the lines section menu 
 
     ![alt text](./img/image-3.png)
 
@@ -9,37 +9,42 @@
   - 1️⃣ The Scan Area contains information about the item being scanned, such as the Item No., Description, quantity scanned and the remaining quantity to scan. The page should be ready for scanning.
   - 2️⃣ List of captured tracking entries.  
 
-    ![alt text](./img/image-4.png) 
+        ![alt text](./img/image-4.png) 
 
-- Scan a tracking no. (can use manual input too)<br>. For Lot Nos., the system will prompt user for a quantity. <br>For Serial Nos., the system will assume quantity = 1, and thus not prompt user for input.
+- _Scan a tracking no_. (can use manual input too)
+  >For Lot Nos., the system will prompt user for a quantity. 
+  >For Serial Nos., the system will assume quantity = 1, and thus not prompt user for input.
   - 1️⃣	Enter a quantity.
   - 2️⃣	Click Check button to save changes and create the tracking entry or Cancel button to discard the changes.
 
-    ![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
+        ![alt text](./img/image-5.png)   ![alt text](./img/image-6.png) 
 
 - If accepted, the following is updated:<br>
   - 1️⃣	Quantity to handle<br>
-  - 2️⃣	Tracking List.<br><br>User can click on an entry in the tracking list and delete an entry if required. 
+  - 2️⃣	Tracking List.
+- The user can click on an entry in the tracking list and delete an entry if required. 
 
-![alt text](./img/image-7.png) 
+        ![alt text](./img/image-7.png) 
 
 **Warehouse Shipments:** 
 On a Warehouse Shipment, click the lines section menu  
 
-![alt text](./img/image-8.png)
+        ![alt text](./img/image-8.png)
 
-If the location requires Picks, the button will not be displayed. This is because tracking is done from the Pick and item tracking cannot be assigned from the warehouse shipment when picks are required.  
-![alt text](./img/image-9.png) 
+- If the location requires Picks, the button will not be displayed. This is because tracking is done from the Pick and item tracking cannot be assigned from the warehouse shipment when picks are required.  
 
-If the location does not require Pick, the button will be displayed<br><br>Scanning process continues same as with Warehouse Receipts.  
+        ![alt text](./img/image-9.png) 
 
-![alt text](./img/image-10.png) 
+- If the location does not require Pick, the button will be displayed. The scanning process continues in a similar way to the Warehouse Receipts.  
 
-**Warehouse Picks**: On warehouse picks, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed.<br>Currently caters for source documents Sales Order and Transfer Order.<br>When a tracking no. is captured, the system will check the bin contents and assign the available quantity to pick.<br>If there isn’t enough to cover the outstanding quantity, the split function should be used to scan a tracking no. from another bin. 
+        ![alt text](./img/image-10.png) 
 
-![alt text](./img/image-11.png)
+**Warehouse Picks:** On warehouse picks, the standard lines section is hidden on mobile devices and a mobile friendly section is displayed. It currently caters for the source documents Sales Order and Transfer Order. When a tracking no. is captured, the system will check the bin contents and assign the available quantity to pick. If there isn’t enough to cover the outstanding quantity, the split function should be used to scan a tracking no. from another bin. 
 
-Split function:<br>If available, user can click the split button.<br>This will prompt the user to enter a value for the Qty. to Handle field.<br><br>Accepting the changes sets the Quantity on the current line to the same as the Qty. to Handle and creates a new line for the difference between the original Quantity and the new Quantity.<br>Set Qty. function: If available, allows the user to capture a new value for the Qty. to Handle field. 
+    ![alt text](./img/image-11.png)
+
+- _Split function:_ If available, user can click the split button. This will prompt the user to enter a value for the Qty. to Handle field. Accepting the changes sets the Quantity on the current line to the same as the Qty. to Handle and creates a new line for the difference between the original Quantity and the new Quantity.
+- _Set Qty. function:_ If available, allows the user to capture a new value for the Qty. to Handle field. 
 
  ![alt text](./img/image-12.png) 
 
